@@ -43,7 +43,7 @@ export default class App extends Component {
 
     const index = Math.floor((start + end) / 2);
     const item = array[index];
-    if (item == value) {
+    if (item == value) { // double equal instead of triple because input is string
         return count;
     }
     else if (item < value) {
